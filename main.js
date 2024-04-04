@@ -1,7 +1,7 @@
 let randomNumber = Math.random();
 let currentNumber;
 
-let input = document.querySelector("pole")
+let input = document.querySelector('text')
 
 
 if (input < randomNumber || input > randomNumber)
