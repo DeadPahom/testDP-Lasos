@@ -1,14 +1,7 @@
 let randomNumber = Math.random();
 
-let input = document.querySelector('text')
+let input = document.querySelector('pole†')
 
 
-if (input < randomNumber || input > randomNumber)
-{
-    console .log("Error");
-}
-else
-{
-    console.log("Yes")
-}
+console.log(input);
 
