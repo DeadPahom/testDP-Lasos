@@ -1,7 +1,7 @@
 let randomNumber = Math.random();
 
-let input = document.querySelector('pole')
+let str = document.querySelector("title")
 
 
-console.log(input);
+console.log(str);
 
