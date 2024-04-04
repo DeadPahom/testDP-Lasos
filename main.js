@@ -1,5 +1,4 @@
 let randomNumber = Math.random();
-let currentNumber;
 
 let input = document.querySelector('text')
 
