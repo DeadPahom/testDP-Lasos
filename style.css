@@ -1,8 +1,11 @@
 .main-content{
-    margin: 50px;
-    font-size: 45px;
+    margin: 0px 0px 10px 0px;
+
+    font-size: 20px;
     
 }
 .title{
     color: blue;
+    padding: 1em;
+
 }
