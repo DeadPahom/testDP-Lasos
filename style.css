@@ -1,11 +1,132 @@
-.main-content{
-    margin: 0px 0px 10px 0px;
-
-    font-size: 20px;
-    
+/* Общие стили */
+body {
+    font-family: sans-serif;
+    margin: 0;
 }
-.title{
-    color: blue;
-    padding: 1em;
 
+/* Шапка сайта */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.header__location {
+    display: flex;
+    align-items: center;
+}
+
+.header__location span {
+    margin-right: 10px;
+}
+
+.header__contacts a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.header__logo img {
+    height: 30px; /* Подкорректируйте высоту */
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header__navigation a, .header__navigation button {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.header__navigation button {
+    background-color: #007bff; /* Синий цвет кнопки */
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Главный блок (Hero Section) */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa; /* Светло-серый фон */
+}
+
+.hero__image-container {
+    width: 40%;
+    text-align: right;
+}
+
+.hero__image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero__content {
+    width: 55%;
+    padding-left: 30px;
+}
+
+.hero__content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero__content h2 {
+    font-size: 1.5em;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="tel"], input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.vehicle-selection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.vehicle-selection select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.order-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-details label {
+    font-weight: normal;
+}
+
+.legal-text {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 20px;
 }
